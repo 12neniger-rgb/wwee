@@ -1,0 +1,3 @@
+-keep class com.smart.translator.** { *; }
+-dontwarn kotlinx.**
+-dontwarn okhttp3.**

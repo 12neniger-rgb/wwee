@@ -1,0 +1,9 @@
+<resources>
+    <color name="primary_gold">#D4AF37</color>
+    <color name="primary_silver">#C0C0C0</color>
+    <color name="primary_bronze">#CD7F32</color>
+    <color name="primary_dark">#2C2C2C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="overlay_bg">#F8F9FB</color>
+    <color name="overlay_text">#111111</color>
+</resources>

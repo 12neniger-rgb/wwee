@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:cardCornerRadius="12dp" android:cardElevation="6dp">
+      <LinearLayout android:orientation="vertical" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/translator_default"/>
+        <Spinner android:id="@+id/spinnerEngine" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnStart" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/start_translator"/>
+      </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:layout_marginTop="12dp" android:text="@string/theme"/>
+    <RadioGroup android:id="@+id/themeGroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <RadioButton android:id="@+id/rbLight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Светлая"/>
+      <RadioButton android:id="@+id/rbDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Тёмная"/>
+      <RadioButton android:id="@+id/rbSystem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Системная"/>
+    </RadioGroup>
+  </LinearLayout>
+</ScrollView>
